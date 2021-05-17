@@ -3,4 +3,4 @@ project(DesignPattern)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(DesignPattern main.cpp open_close_principle/ISendable.cpp open_close_principle/ISendable.h open_close_principle/MessageService.cpp open_close_principle/MessageService.h)
+add_executable(DesignPattern main.cpp open_close_principle/ISendable.cpp open_close_principle/ISendable.h open_close_principle/MessageService.cpp open_close_principle/MessageService.h Liskov_Substitution_Principle/Father.cpp Liskov_Substitution_Principle/Father.h Liskov_Substitution_Principle/Son.cpp Liskov_Substitution_Principle/Son.h)
