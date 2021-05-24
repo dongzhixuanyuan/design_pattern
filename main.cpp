@@ -2,6 +2,7 @@
 
 #include "open_close_principle/ISendable.h"
 #include "open_close_principle/MessageService.h"
+#include "Simple_Factory/Client.h"
 using namespace std;
 using namespace OpenClosePrinciple;
 
@@ -32,8 +33,6 @@ int main() {
     shared_ptr<ISendable> phoneHelper(new PhoneMessage());
     MessageService *phoneService = new MessageService(phoneHelper);
     phoneService->greeting("fff");
-    delete phoneService;
-
 
     return 0;
 }
