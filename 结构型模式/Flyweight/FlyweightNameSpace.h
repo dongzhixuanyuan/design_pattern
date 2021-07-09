@@ -1,0 +1,14 @@
+//
+// Created by liudong on 2021/6/27.
+//
+
+#ifndef DESIGNPATTERN_FLYWEIGHTNAMESPACE_H
+#define DESIGNPATTERN_FLYWEIGHTNAMESPACE_H
+
+
+namespace FlyweightPattern {
+
+}
+
+
+#endif //DESIGNPATTERN_FLYWEIGHTNAMESPACE_H
