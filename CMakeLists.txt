@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 3.17)
+project(DesignPattern)
+
+set(CMAKE_CXX_STANDARD 14)
+
+add_executable(DesignPattern main.cpp 软件设计原则/open_close_principle/ISendable.cpp 软件设计原则/open_close_principle/ISendable.h 软件设计原则/open_close_principle/MessageService.cpp 软件设计原则/open_close_principle/MessageService.h 软件设计原则/Liskov_Substitution_Principle/Father.cpp 软件设计原则/Liskov_Substitution_Principle/Father.h 软件设计原则/Liskov_Substitution_Principle/Son.cpp 软件设计原则/Liskov_Substitution_Principle/Son.h 软件设计原则/Law_of_Demeter/Star.cpp 软件设计原则/Law_of_Demeter/Star.h 软件设计原则/Law_of_Demeter/Fans.cpp 软件设计原则/Law_of_Demeter/Fans.h 软件设计原则/Law_of_Demeter/Company.cpp 软件设计原则/Law_of_Demeter/Company.h 软件设计原则/Law_of_Demeter/Agent.cpp 软件设计原则/Law_of_Demeter/Agent.h 创建型模式/Prototype/Prototype.cpp 创建型模式/Prototype/Prototype.h 创建型模式/Simple_Factory/Product.cpp 创建型模式/Simple_Factory/Product.h 创建型模式/Simple_Factory/SimpleFactory.cpp 创建型模式/Simple_Factory/SimpleFactory.h 创建型模式/Simple_Factory/Client.cpp 创建型模式/Simple_Factory/Client.h 结构型模式/Flyweight/UnSharedFlyweightState.cpp 结构型模式/Flyweight/UnSharedFlyweightState.h 结构型模式/Flyweight/FlyweightBaseModel.cpp 结构型模式/Flyweight/FlyweightBaseModel.h 结构型模式/Flyweight/ConcreteFlyweiModel.cpp 结构型模式/Flyweight/ConcreteFlyweiModel.h 结构型模式/Flyweight/FlyWeightFactory.cpp 结构型模式/Flyweight/FlyWeightFactory.h 结构型模式/Flyweight/FlyweightNameSpace.h)

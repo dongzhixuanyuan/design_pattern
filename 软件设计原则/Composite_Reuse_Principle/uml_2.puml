@@ -1,0 +1,28 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+
+interface Color
+
+Color <|-- White
+Color <|-- Black
+Color <|-- Red
+
+class Car {
+  Color color
+  void move()
+}
+Car o-- Color
+
+class GasolineCar {
+ void move()
+}
+class ElectricCar {
+void move()
+}
+
+
+Car <|-- GasolineCar
+Car <|-- ElectricCar
+
+@enduml
